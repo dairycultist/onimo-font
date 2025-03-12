@@ -5,8 +5,8 @@
 # Then copy these instructions just below the only occurence of ‘Grid’ in a .sfd (FontForge file).
 
 GRID_STEP = 64
-SNAP_STEP = 32
-MIN_X = -224
+SNAP_STEP = 16
+MIN_X = -128
 MAX_X = 1024
 MIN_Y = MIN_X
 MAX_Y = MAX_X
