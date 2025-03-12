@@ -16,16 +16,18 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 XUID: [1021 681 -1272466032 3114616]
+StyleMap: 0x0000
+FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1741812626
-ModificationTime: 1741816591
+ModificationTime: 1741823649
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
 OS2TypoDOffset: 1
-OS2TypoLinegap: 0
+OS2TypoLinegap: 90
 OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
@@ -34,7 +36,6 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -44,7 +45,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 51 17 6
+WinInfo: 0 22 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5455,25 +5456,63 @@ Grid
 1024 1024 m 1025
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 1
+BeginChars: 256 3
 
 StartChar: O
 Encoding: 79 79 0
 Width: 512
-Flags: HWO
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: o
+Encoding: 111 111 1
+Width: 514
+Flags: W
+HStem: 0 96<181.978 326.1> 352 96<185.9 326.1>
+VStem: 32 96<149.2 298.231> 384 96<149.769 298.231>
 LayerCount: 2
 Fore
 SplineSet
-256 400 m 0
- 189.038085938 400 128 320 128 224 c 0
- 128 125.438476562 184.578125 48 256 48 c 0
- 329.668945312 48 384 128 384 224 c 0
- 384 320 322.870117188 400 256 400 c 0
+128 0 m 1025
+256 352 m 0
+ 208 352 128 320 128 224 c 4
+ 128 125.438476562 208 96 256 96 c 0
+ 304 96 384 128 384 224 c 0
+ 384 320 304 352 256 352 c 0
 256 0 m 0
  128 0 32 96 32 224 c 0
- 32 352 128 448 256 448 c 0
- 384 448 480 352 480 224 c 0
+ 32 352 128 448 256 448 c 4
+ 384 448 480 352 480 224 c 4
  480 96 384 0 256 0 c 0
+EndSplineSet
+EndChar
+
+StartChar: b
+Encoding: 98 98 2
+Width: 482
+Flags: W
+HStem: 0 96<164.859 306.107> 352 96<164.859 306.107>
+VStem: 32 96<0 48 131.216 316.784 416 640> 352 96<144.538 303.462>
+LayerCount: 2
+Fore
+SplineSet
+128 256 m 5
+ 128 192 l 4
+ 128 144 160 96 240 96 c 4
+ 288 96 352 128 352 224 c 0
+ 352 320 288 352 240 352 c 4
+ 160 352 128 304 128 256 c 5
+128 0 m 0
+ 32 0 l 25
+ 32 640 l 1
+ 130 640 l 1
+ 128 416 l 0
+ 128 416 144 448 240 448 c 0
+ 368 448 448 352 448 224 c 0
+ 448 96 368 0 240 0 c 3
+ 144 0 128 48 128 48 c 0
+ 128 0 l 0
 EndSplineSet
 EndChar
 EndChars
