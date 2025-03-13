@@ -6,10 +6,10 @@
 
 GRID_STEP = 64
 SNAP_STEP = 16
-MIN_X = -128
-MAX_X = 1024
-MIN_Y = MIN_X
-MAX_Y = MAX_X
+MIN_X = GRID_STEP * -2
+MAX_X = GRID_STEP * 16
+MIN_Y = GRID_STEP * -3
+MAX_Y = GRID_STEP * 10
 
 # Lines
 for y in range(MIN_Y, MAX_Y + 1, GRID_STEP):
