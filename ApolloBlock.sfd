@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1741812626
-ModificationTime: 1741840129
+ModificationTime: 1741841141
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -3986,7 +3987,7 @@ Grid
 1024 640 m 1025
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 18
+BeginChars: 260 20
 
 StartChar: O
 Encoding: 79 79 0
@@ -3998,23 +3999,23 @@ EndChar
 StartChar: o
 Encoding: 111 111 1
 Width: 477
-Flags: W
+Flags: HW
 HStem: 0 96<162.978 307.1> 352 96<166.9 307.1>
 VStem: 13 96<149.2 298.231> 365 96<149.769 298.231>
 LayerCount: 2
 Fore
 SplineSet
-109 0 m 1025
-237 352 m 0
- 189 352 109 320 109 224 c 0
- 109 125.438476562 189 96 237 96 c 0
- 285 96 365 128 365 224 c 0
- 365 320 285 352 237 352 c 0
-237 0 m 0
- 109 0 13 96 13 224 c 0
- 13 352 109 448 237 448 c 0
- 365 448 461 352 461 224 c 0
- 461 96 365 0 237 0 c 0
+109 0 m 1029
+240 352 m 4
+ 192 352 112 320 112 224 c 4
+ 112 125.438476562 192 96 240 96 c 4
+ 288 96 368 128 368 224 c 4
+ 368 320 288 352 240 352 c 4
+240 0 m 4
+ 112 0 16 96 16 224 c 4
+ 16 352 112 448 240 448 c 4
+ 368 448 464 352 464 224 c 4
+ 464 96 368 0 240 0 c 4
 EndSplineSet
 EndChar
 
@@ -4386,22 +4387,86 @@ EndChar
 StartChar: Iacute
 Encoding: 205 205 17
 Width: 162
-Flags: HWO
+Flags: HW
 HStem: 0 21G<32 128> 428 20G<32 128> 544 96<32 128>
 VStem: 32 96<0 448 544 640>
 LayerCount: 2
 Fore
 SplineSet
-64 640 m 1
- 176 640 l 1
- 112 528 l 1
- 48 528 l 1
- 64 640 l 1
+64 640 m 5
+ 176 640 l 5
+ 112 528 l 5
+ 48 528 l 5
+ 64 640 l 5
 32 448 m 1
  128 448 l 1
  128 0 l 1
  32 0 l 1
  32 448 l 1
+EndSplineSet
+EndChar
+
+StartChar: odieresis
+Encoding: 246 246 18
+Width: 477
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+272 576 m 5
+ 368 576 l 5
+ 368 480 l 5
+ 272 480 l 5
+ 272 576 l 5
+112 576 m 5
+ 208 576 l 5
+ 208 480 l 5
+ 112 480 l 5
+ 112 576 l 5
+109 0 m 1029
+240 352 m 4
+ 192 352 112 320 112 224 c 4
+ 112 125.438476562 192 96 240 96 c 4
+ 288 96 368 128 368 224 c 4
+ 368 320 288 352 240 352 c 4
+240 0 m 4
+ 112 0 16 96 16 224 c 4
+ 16 352 112 448 240 448 c 4
+ 368 448 464 352 464 224 c 4
+ 464 96 368 0 240 0 c 4
+EndSplineSet
+EndChar
+
+StartChar: ohungarumlaut
+Encoding: 257 337 19
+Width: 477
+Flags: HW
+HStem: 0 96<162.978 307.1> 352 96<166.9 307.1>
+VStem: 13 96<149.2 298.231> 365 96<149.769 298.231>
+LayerCount: 2
+Fore
+SplineSet
+288 592 m 1
+ 400 592 l 1
+ 336 480 l 1
+ 272 480 l 1
+ 288 592 l 1
+144 592 m 1
+ 256 592 l 1
+ 192 480 l 1
+ 128 480 l 1
+ 144 592 l 1
+109 0 m 1025
+240 352 m 0
+ 192 352 112 320 112 224 c 0
+ 112 125.438476562 192 96 240 96 c 0
+ 288 96 368 128 368 224 c 0
+ 368 320 288 352 240 352 c 0
+240 0 m 0
+ 112 0 16 96 16 224 c 0
+ 16 352 112 448 240 448 c 0
+ 368 448 464 352 464 224 c 0
+ 464 96 368 0 240 0 c 0
 EndSplineSet
 EndChar
 EndChars
