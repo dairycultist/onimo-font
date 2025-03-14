@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1741812626
-ModificationTime: 1741914819
+ModificationTime: 1741914915
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -4627,8 +4627,8 @@ EndChar
 
 StartChar: r
 Encoding: 114 114 25
-Width: 320
-Flags: W
+Width: 337
+Flags: HW
 HStem: 0 21G<32 128> 352 96<161.909 310.624>
 VStem: 32 96<0 318.156 416 448>
 LayerCount: 2
@@ -4829,22 +4829,22 @@ Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
-128 256 m 0
- 352 256 l 0
- 352 448 128 320 128 256 c 0
-352 0 m 1
- 256 160 l 3
- 160 160 128 160 128 160 c 0
- 128 0 l 0
- 32 0 l 25
- 32 640 l 1
- 128 640 l 1
- 128 384 l 0
- 128 384 192 448 288 448 c 0
- 416 448 448 384 448 256 c 0
- 448 160 432 160 352 160 c 1
- 448 0 l 1
- 352 0 l 1
+128 256 m 4
+ 352 256 l 4
+ 384 448 128 320 128 256 c 4
+352 0 m 5
+ 256 160 l 7
+ 160 160 128 160 128 160 c 4
+ 128 0 l 4
+ 32 0 l 29
+ 32 640 l 5
+ 128 640 l 5
+ 128 384 l 4
+ 128 384 192 448 288 448 c 4
+ 416 448 448 384 448 256 c 4
+ 448 160 432 160 352 160 c 5
+ 448 0 l 5
+ 352 0 l 5
 EndSplineSet
 EndChar
 EndChars
