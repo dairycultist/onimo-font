@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1741812626
-ModificationTime: 1741912714
+ModificationTime: 1741913116
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -3987,7 +3987,7 @@ Grid
 1024 640 m 1025
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 260 27
+BeginChars: 260 30
 
 StartChar: O
 Encoding: 79 79 0
@@ -4281,15 +4281,15 @@ EndChar
 StartChar: e
 Encoding: 101 101 13
 Width: 463
-Flags: HWO
+Flags: HW
 HStem: 0 96<166.763 315.512> 368 80<171.33 308.885>
 VStem: 17 95<146.574 208>
 LayerCount: 2
 Fore
 SplineSet
-128 288 m 5
- 128 384 336 384 336 288 c 5
- 128 288 l 5
+128 288 m 1
+ 128 384 336 384 336 288 c 1
+ 128 288 l 1
 448 208 m 0
  448 352 369 448 241 448 c 0
  96 448 17 352 17 224 c 0
@@ -4368,10 +4368,10 @@ SplineSet
  240 352 l 0
  240 390.012695312 240 448 240 448 c 0
  175 448 l 1
- 175 512 l 1
+ 175 512 l 5
  175 512 176 544 240 544 c 4
  240 640 l 4
- 128 640 80 608 80 512 c 0
+ 128 640 80 608 80 512 c 4
  79 448 l 1
  16 448 l 1
  16 352 l 1
@@ -4627,8 +4627,58 @@ SplineSet
 EndSplineSet
 EndChar
 
+StartChar: h
+Encoding: 104 104 25
+Width: 464
+Flags: HWO
+HStem: 0 96<164.859 306.107> 352 96<164.859 306.107> 620 20G<32 128>
+VStem: 32 96<0 48 131.216 316.784 416 640> 352 96<144.538 303.462>
+LayerCount: 2
+Fore
+SplineSet
+448 224 m 3
+ 448 352 400 448 240 448 c 3
+ 144 448 128 416 128 416 c 0
+ 128 640 l 1
+ 32 640 l 1
+ 32 0 l 1
+ 128 0 l 1
+ 128 256 l 2
+ 128 320 176 352 240 352 c 3
+ 304 352 352 320 352 224 c 3
+ 352 0 l 1
+ 448 0 l 1
+ 448 224 l 3
+EndSplineSet
+EndChar
+
+StartChar: n
+Encoding: 110 110 26
+Width: 464
+Flags: HW
+HStem: 0 96<164.859 306.107> 352 96<164.859 306.107> 620 20G<32 128>
+VStem: 32 96<0 48 131.216 316.784 416 640> 352 96<144.538 303.462>
+LayerCount: 2
+Fore
+SplineSet
+448 224 m 7
+ 448 352 400 448 240 448 c 7
+ 144 448 128 416 128 416 c 4
+ 128 448 l 5
+ 32 448 l 5
+ 32 0 l 5
+ 128 0 l 5
+ 128 256 l 6
+ 128 320 176 352 240 352 c 7
+ 304 352 352 320 352 224 c 7
+ 352 0 l 5
+ 448 0 l 5
+ 448 224 l 7
+EndSplineSet
+EndChar
+
 StartChar: aacute
-Encoding: 225 225 25
+Encoding: 225 225 27
 Width: 447
 Flags: HW
 HStem: 0 96<140.893 282.141> 352 96<140.893 282.141>
@@ -4659,7 +4709,7 @@ EndSplineSet
 EndChar
 
 StartChar: adieresis
-Encoding: 228 228 26
+Encoding: 228 228 28
 Width: 447
 Flags: HW
 HStem: 0 96<140.893 282.141> 352 96<140.893 282.141>
@@ -4691,6 +4741,30 @@ SplineSet
  112 288 16 240 16 112 c 3
  16 16 64 0 160 0 c 2
  432 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: j
+Encoding: 106 106 29
+Width: 162
+Flags: HW
+HStem: 0 21G<32 128> 428 20G<32 128> 544 96<32 128>
+VStem: 32 96<0 448 544 640>
+LayerCount: 2
+Fore
+SplineSet
+128 0 m 0
+ 128 448 l 1
+ 32 448 l 1
+ 32 448 32 0 33 0 c 1
+ 33 0 32 -32 -32 -32 c 0
+ -32 -128 l 0
+ 80 -128 128 -96 128 0 c 0
+32 640 m 1
+ 128 640 l 1
+ 128 544 l 1
+ 32 544 l 1
+ 32 640 l 1
 EndSplineSet
 EndChar
 EndChars
