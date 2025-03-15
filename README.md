@@ -2,5 +2,7 @@ Apollo is a family of sans-serif fonts under the CC BY-SA license. Currently, Ap
 
 ![An example of Apollo Block; a bold, modern display font](ApolloBlock/example.png)
 
+**Notes**
+
 - Apollo Block is currently WIP
-- Apollo Mint is aplanned text font that is calm, simple, and easy to read when small and in big bodies of text
+- Apollo Mint is a planned text font that is calm, simple, and easy to read when small and in big bodies of text
