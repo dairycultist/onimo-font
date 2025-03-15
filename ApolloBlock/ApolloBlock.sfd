@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1741812626
-ModificationTime: 1742020929
+ModificationTime: 1742022465
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -3986,7 +3987,7 @@ Grid
 1024 640 m 1025
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 260 42
+BeginChars: 260 43
 
 StartChar: O
 Encoding: 79 79 0
@@ -5034,6 +5035,30 @@ SplineSet
  128 336 l 1
  32 336 l 1
  32 240 l 1
+EndSplineSet
+EndChar
+
+StartChar: A
+Encoding: 65 65 42
+Width: 543
+Flags: HWO
+HStem: 0 21G<152.857 263.098> 428 20G<0 103.368 312.632 415>
+LayerCount: 2
+Fore
+SplineSet
+208 288 m 1
+ 336 288 l 1
+ 272 480 l 1
+ 208 288 l 1
+185 208 m 1
+ 112 0 l 1
+ 0 0 l 1
+ 224 640 l 1
+ 320 640 l 1
+ 544 0 l 1
+ 432 0 l 0
+ 359 208 l 1
+ 185 208 l 1
 EndSplineSet
 EndChar
 EndChars
