@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1741812626
-ModificationTime: 1742019433
+ModificationTime: 1742020322
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -3987,7 +3987,7 @@ Grid
 1024 640 m 1025
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 260 35
+BeginChars: 260 37
 
 StartChar: O
 Encoding: 79 79 0
@@ -4106,7 +4106,7 @@ EndChar
 StartChar: d
 Encoding: 100 100 5
 Width: 465
-Flags: WO
+Flags: W
 HStem: 0 96<156.893 298.141> 352 96<156.893 298.141>
 VStem: 15 96<144.538 303.462> 335 96<131.216 192 256 316.784>
 LayerCount: 2
@@ -4281,22 +4281,23 @@ EndChar
 StartChar: e
 Encoding: 101 101 13
 Width: 463
-Flags: W
+Flags: HWO
 VStem: 17 95<140.097 208>
 LayerCount: 2
 Fore
 SplineSet
-128 288 m 1
- 128 384 336 384 336 288 c 1
- 128 288 l 1
-448 208 m 0
- 448 352 369 448 241 448 c 0
- 96 448 17 352 17 224 c 0
- 17 96 96 0 241 0 c 0
- 352 0 432 96 432 144 c 0
- 336 144 l 1
- 304 64 112 64 112 208 c 1
- 448 208 l 0
+128 288 m 5
+ 336 288 l 5
+ 336 384 128 384 128 288 c 5
+448 256 m 6
+ 448 208 l 5
+ 112 208 l 5
+ 112 64 304 64 336 144 c 5
+ 432 144 l 4
+ 432 96 352 0 241 0 c 4
+ 96 0 17.9999694838 96.0039060712 17 224 c 4
+ 16 352 96 448 241 448 c 4
+ 384 448 448 336 448 256 c 6
 EndSplineSet
 EndChar
 
@@ -4887,6 +4888,57 @@ SplineSet
  415 448 l 1
  256 0 l 1
  232 -64 l 2
+EndSplineSet
+EndChar
+
+StartChar: x
+Encoding: 120 120 35
+Width: 415
+Flags: HW
+HStem: 0 21G<144 240> 428 20G<144 240> 544 96<144 240>
+VStem: 144 96<0 448 544 640>
+LayerCount: 2
+Fore
+SplineSet
+256 224 m 1
+ 415 448 l 1
+ 304 448 l 0
+ 208 304 l 1
+ 112 448 l 1
+ 0 448 l 1
+ 160 224 l 1
+ 0 0 l 1
+ 112 0 l 5
+ 208 144 l 1
+ 304 0 l 0
+ 415 0 l 1
+ 256 224 l 1
+EndSplineSet
+EndChar
+
+StartChar: w
+Encoding: 119 119 36
+Width: 672
+Flags: HW
+HStem: 0 21G<144 240> 428 20G<144 240> 544 96<144 240>
+VStem: 144 96<0 448 544 640>
+LayerCount: 2
+Fore
+SplineSet
+288 384 m 1
+ 384 384 l 1
+ 464 144 l 1
+ 576 448 l 0
+ 671 448 l 1
+ 512 0 l 1
+ 416 0 l 1
+ 336 240 l 5
+ 256 0 l 1
+ 160 0 l 1
+ 0 448 l 1
+ 96 448 l 1
+ 208 144 l 1
+ 288 384 l 1
 EndSplineSet
 EndChar
 EndChars
