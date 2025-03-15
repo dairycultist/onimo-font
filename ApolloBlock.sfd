@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1741812626
-ModificationTime: 1741914915
+ModificationTime: 1742019433
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -3986,7 +3987,7 @@ Grid
 1024 640 m 1025
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 260 33
+BeginChars: 260 35
 
 StartChar: O
 Encoding: 79 79 0
@@ -4105,7 +4106,7 @@ EndChar
 StartChar: d
 Encoding: 100 100 5
 Width: 465
-Flags: W
+Flags: WO
 HStem: 0 96<156.893 298.141> 352 96<156.893 298.141>
 VStem: 15 96<144.538 303.462> 335 96<131.216 192 256 316.784>
 LayerCount: 2
@@ -4301,7 +4302,7 @@ EndChar
 
 StartChar: c
 Encoding: 99 99 14
-Width: 480
+Width: 463
 Flags: W
 HStem: 0 96<165.978 309.67> 352 96<169.9 310.221>
 VStem: 16 96<149.2 298.231>
@@ -4768,19 +4769,19 @@ EndChar
 StartChar: j
 Encoding: 106 106 30
 Width: 162
-Flags: W
+Flags: HW
 HStem: -128 96<-32 28.4622> 544 96<32 128>
 VStem: 32 96<544 640>
 LayerCount: 2
 Fore
 SplineSet
-128 0 m 0
+128 -64 m 4
  128 448 l 1
  32 448 l 1
- 32 448 32 0 33 0 c 1
- 33 0 32 -32 -32 -32 c 0
- -32 -128 l 0
- 80 -128 128 -96 128 0 c 0
+ 32 448 32 -64 33 -64 c 5
+ 33 -64 32 -96 -32 -96 c 4
+ -32 -192 l 4
+ 80 -192 128 -160 128 -64 c 4
 32 640 m 1
  128 640 l 1
  128 544 l 1
@@ -4825,26 +4826,67 @@ EndChar
 StartChar: k
 Encoding: 107 107 32
 Width: 464
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-128 256 m 4
- 352 256 l 4
- 384 448 128 320 128 256 c 4
-352 0 m 5
- 256 160 l 7
- 160 160 128 160 128 160 c 4
- 128 0 l 4
- 32 0 l 29
- 32 640 l 5
- 128 640 l 5
- 128 384 l 4
- 128 384 192 448 288 448 c 4
- 416 448 448 384 448 256 c 4
- 448 160 432 160 352 160 c 5
- 448 0 l 5
- 352 0 l 5
+128 256 m 0
+ 352 256 l 0
+ 384 448 128 320 128 256 c 0
+352 0 m 1
+ 256 160 l 3
+ 160 160 128 160 128 160 c 0
+ 128 0 l 0
+ 32 0 l 25
+ 32 640 l 1
+ 128 640 l 1
+ 128 384 l 0
+ 128 384 192 448 288 448 c 0
+ 416 448 448 384 448 256 c 0
+ 448 160 432 160 352 160 c 1
+ 448 0 l 1
+ 352 0 l 1
+EndSplineSet
+EndChar
+
+StartChar: v
+Encoding: 118 118 33
+Width: 415
+Flags: HW
+HStem: 0 21G<144 240> 428 20G<144 240> 544 96<144 240>
+VStem: 144 96<0 448 544 640>
+LayerCount: 2
+Fore
+SplineSet
+320 448 m 4
+ 415 448 l 5
+ 256 0 l 5
+ 160 0 l 5
+ 0 448 l 5
+ 96 448 l 5
+ 208 144 l 5
+ 320 448 l 4
+EndSplineSet
+EndChar
+
+StartChar: y
+Encoding: 121 121 34
+Width: 415
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+232 -64 m 2
+ 200.438356164 -148.164383562 184 -192 72 -192 c 0
+ 72 -96 l 1
+ 125.5 -96 125.5 -96 160 0 c 1
+ 0 448 l 1
+ 96 448 l 1
+ 208 144 l 1
+ 320 448 l 0
+ 415 448 l 1
+ 256 0 l 1
+ 232 -64 l 2
 EndSplineSet
 EndChar
 EndChars
