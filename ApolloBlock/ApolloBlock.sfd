@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1741812626
-ModificationTime: 1742106089
+ModificationTime: 1742106765
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -46,7 +46,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 22 10
+WinInfo: 44 22 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3987,13 +3987,34 @@ Grid
 1024 640 m 1025
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 260 49
+BeginChars: 260 51
 
 StartChar: O
 Encoding: 79 79 0
-Width: 512
-Flags: W
+Width: 514
+Flags: HW
+HStem: 0 96<182.978 327.1> 352 96<186.9 327.1>
+VStem: 33 96<149.2 298.231> 385 96<149.769 298.231>
 LayerCount: 2
+Fore
+SplineSet
+125 640 m 1029
+384 224 m 6
+ 384 128 305 96 257 96 c 4
+ 209 96 128 128 128 224 c 6
+ 128 416 l 6
+ 128 511.873411979 208 544 256 544 c 4
+ 304 544 384 511.793278883 384 416 c 6
+ 384 224 l 6
+480 416 m 6
+ 479.333351417 543.996527872 384 640 256 640 c 4
+ 128 640 31.3333514173 543.996527872 32 416 c 6
+ 33 224 l 6
+ 33.6666689269 95.9995660436 129 0 257 0 c 4
+ 385 0 481.666621457 96.0086803201 481 224 c 6
+ 480 416 l 6
+126 0 m 1029
+EndSplineSet
 EndChar
 
 StartChar: o
@@ -5181,7 +5202,7 @@ EndChar
 StartChar: J
 Encoding: 74 74 48
 Width: 494
-Flags: HWO
+Flags: HW
 HStem: -192 96<298 358.462> 544 96<362 458>
 VStem: 362 96<544 640>
 LayerCount: 2
@@ -5200,6 +5221,48 @@ SplineSet
  462 -92 366 -192 238 -192 c 3
  110 -192 14 -96 14 32 c 0
  110 32 l 3
+EndSplineSet
+EndChar
+
+StartChar: L
+Encoding: 76 76 49
+Width: 479
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+128 96 m 1
+ 448 96 l 0
+ 448 0 l 9
+ 32 0 l 1
+ 32 640 l 1
+ 128 640 l 1
+ 128 96 l 1
+EndSplineSet
+EndChar
+
+StartChar: Q
+Encoding: 81 81 50
+Width: 514
+Flags: HWO
+LayerCount: 2
+Fore
+SplineSet
+125 640 m 1025
+384 96 m 17
+ 257 96 l 2
+ 209 96 128 128 128 224 c 2
+ 128 416 l 2
+ 128 511.873411979 208 544 256 544 c 0
+ 304 544 384 511.784162009 384 416 c 2
+ 384 96 l 17
+480 0 m 1
+ 480 416 l 2
+ 480 543.996527872 384 640 256 640 c 0
+ 128 640 31.3333514173 543.996527872 32 416 c 2
+ 33 224 l 2
+ 33.6666689269 95.9995660436 126 0 257 0 c 2
+ 480 0 l 1
 EndSplineSet
 EndChar
 EndChars
