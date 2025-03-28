@@ -1,15 +1,15 @@
 # https://namethattech.wordpress.com/2017/03/22/how-to-make-a-snap-to-grid-in-fontforge/comment-page-1/
 
 # This script outputs instructions to draw a snap grid in FontForge.
-# python3 script.py > grid.txt
+# python3 grid_script.py > grid.txt
 # Then copy these instructions just below the only occurence of ‘Grid’ in a .sfd (FontForge file).
 
-GRID_STEP = 64
-SNAP_STEP = 16
-MIN_X = GRID_STEP * -2
-MAX_X = GRID_STEP * 16
-MIN_Y = GRID_STEP * -3
-MAX_Y = GRID_STEP * 10
+GRID_STEP = 50
+SNAP_STEP = 10
+MIN_X = 0
+MAX_X = 800
+MIN_Y = -300
+MAX_Y = 700
 
 # Lines
 for y in range(MIN_Y, MAX_Y + 1, GRID_STEP):
