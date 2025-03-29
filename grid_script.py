@@ -2,14 +2,14 @@
 
 # This script outputs instructions to draw a snap grid in FontForge.
 # python3 grid_script.py > grid.txt
-# Then copy these instructions just below the only occurence of ‘Grid’ in a .sfd (FontForge file).
+# Then copy these instructions just below the only occurence of 'Grid' in a .sfd (FontForge file).
 
 GRID_STEP = 50
 SNAP_STEP = 10
-MIN_X = 0
+MIN_X = -50
 MAX_X = 800
-MIN_Y = -300
-MAX_Y = 700
+MIN_Y = -200
+MAX_Y = 800
 
 # Lines
 for y in range(MIN_Y, MAX_Y + 1, GRID_STEP):
