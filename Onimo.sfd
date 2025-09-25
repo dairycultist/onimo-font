@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1741812626
-ModificationTime: 1743208767
+ModificationTime: 1758774614
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -46,7 +46,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 44 22 10
+WinInfo: 0 22 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -8816,7 +8816,7 @@ Grid
 800 800 m 1025
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 260 61
+BeginChars: 260 56
 
 StartChar: O
 Encoding: -1 79 0
@@ -10142,29 +10142,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u
-Encoding: 117 117 53
-Width: 570
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-170 210 m 6
- 170 0 401 45.44140625 401 168.19921875 c 2
- 401 500 l 1
- 501 500 l 0
- 501 0 l 0
- 401 0 l 0
- 401 70 l 3
- 401 -30.0048828125 70 -90 70 210 c 6
- 70 500 l 1
- 170 500 l 1
- 170 210 l 6
-EndSplineSet
-EndChar
-
 StartChar: one
-Encoding: 49 49 54
+Encoding: 49 49 53
 Width: 238
 Flags: HW
 LayerCount: 2
@@ -10179,142 +10158,41 @@ EndSplineSet
 EndChar
 
 StartChar: i
-Encoding: 105 105 55
-Width: 238
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-70 600 m 1
- 170 600 l 25
- 170 700 l 1
- 70 700 l 1
- 70 600 l 1
-70 0 m 1
- 170 0 l 25
- 170 500 l 25
- 70 500 l 1
- 70 0 l 1
-EndSplineSet
-EndChar
-
-StartChar: d
-Encoding: 100 100 56
-Width: 590
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-170 250 m 6
- 170 450 419.539455953 419.12182715 420 340 c 6
- 421 168.19921875 l 6
- 421.704614663 47.1458691824 170 10.6665581625 170 210 c 6
- 170 250 l 6
-70 250 m 6
- 70 210 l 6
- 70 -90.4764100106 421 -30.004999875 421 70 c 7
- 421 0 l 29
- 521 0 l 5
- 520 700 l 29
- 420 700 l 5
- 420 440 l 4
- 420 512.697495909 70 550 70 250 c 6
-EndSplineSet
-EndChar
-
-StartChar: b
-Encoding: 98 98 57
-Width: 590
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-430 250 m 6
- 430 450 180.4609375 419.122070312 180 340 c 6
- 179 168.19921875 l 6
- 178.294921875 47.1455078125 430 10.6669921875 430 210 c 6
- 430 250 l 6
-530 250 m 6
- 530 210 l 6
- 530 -90.4765625 179 -30.0048828125 179 70 c 4
- 179 0 l 29
- 79 0 l 5
- 80 700 l 29
- 180 700 l 5
- 180 440 l 4
- 180 512.697265625 530 550 530 250 c 6
-EndSplineSet
-EndChar
-
-StartChar: p
-Encoding: 112 112 58
-Width: 590
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-430 250 m 2
- 430 450 180.4609375 419.122070312 180 340 c 2
- 179 168.19921875 l 2
- 178.294921875 47.1455078125 430 10.6669921875 430 210 c 2
- 430 250 l 2
-530 250 m 2
- 530 210 l 2
- 530 -90.4765625 179 -30.0048828125 179 70 c 0
- 180 -200 l 25
- 80 -200 l 1
- 80 500 l 1
- 180 500 l 1
- 180 440 l 0
- 180 512.697265625 530 550 530 250 c 2
-EndSplineSet
-EndChar
-
-StartChar: q
-Encoding: 113 113 59
-Width: 590
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-170 250 m 2
- 170 450 419.539455953 419.12182715 420 340 c 2
- 421 168.19921875 l 2
- 421.704614663 47.1458691824 170 10.6665581625 170 210 c 2
- 170 250 l 2
-70 250 m 2
- 70 210 l 2
- 70 -90.4764100106 421 -30.004999875 421 70 c 3
- 420 -200 l 25
- 520 -200 l 1
- 520 500 l 1
- 420 500 l 1
- 420 440 l 0
- 420 512.697495909 70 550 70 250 c 2
-EndSplineSet
-EndChar
-
-StartChar: a
-Encoding: 97 97 60
+Encoding: 105 105 54
 Width: 590
 Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
-420 270 m 1
- 421 168.19921875 l 2
- 422.180008419 48.0734397927 170 20 170 140 c 3
- 170 250.453125 420 270 420 270 c 1
-190 340 m 7
- 190 430 420 430 420 340 c 6
- 420 330 l 1
- 420 330 70 320.27734375 70 140 c 3
- 70 -70.2379604163 421 -30.004999875 421 70 c 3
- 421 0 l 25
- 521 0 l 1
- 520 350 l 2
- 519.428576093 549.99836736 90 550 90 340 c 4
- 190 340 l 7
+500 500 m 13
+ 500 0 l 1
+ 420 0 l 1
+ 421 500 l 21
+ 500 500 l 13
+EndSplineSet
+EndChar
+
+StartChar: a
+Encoding: 97 97 55
+Width: 590
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+419 240 m 1
+ 419 170 l 2
+ 419 49.4052734375 150 11.7234269945 150 140 c 3
+ 150 250.453125 419 240 419 240 c 1
+170 310 m 0
+ 147.727607522 439.005076866 419 473.3359375 419 310 c 2
+ 419 300 l 1
+ 419 300 70 320.27734375 70 140 c 3
+ 70 -70.2379604163 420 -30.0048828125 420 70 c 0
+ 420 0 l 25
+ 500 0 l 1
+ 499 290 l 2
+ 497.930664062 600.03125 40 510 100 300 c 0
+ 170 310 l 0
 EndSplineSet
 EndChar
 EndChars
